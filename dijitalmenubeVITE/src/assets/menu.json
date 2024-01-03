@@ -1,0 +1,20 @@
+{
+    "storeName":"Example Cafe",
+    "menu":{
+        "Çorbalar":[
+            {"name":"Yayla Çorbası", "desc":"En taze ürünlerle yoğurtlu yayla", "price":50, "img":"/yayla.webp"},
+            {"name":"Mercimek", "desc":"Klasik sevdalılarına mercimek çorbası", "price":40, "img":"/mercimek.webp"}
+        ],
+
+        "Ana Yemek":[
+            {"name":"Adana Kebap", "desc":"Acılı adana kebap", "price":180, "img":"/adana.webp"},
+            {"name":"Urfa Kebap", "desc":"Acısız Urfa Kebap", "price":180, "img":"/urfa.webp"}
+        ],
+
+        "İçecekler":[
+            {"name":"Kola", "desc":"CocaCola", "price":40, "img":"/kola.webp"},
+            {"name":"Fanta", "desc":"Fanta Kola", "price":40, "img":"/fanta.webp"},
+            {"name":"Ayran", "desc":"Kapalı Ayran", "price":25, "img":"/ayran.webp"}
+        ]
+    }
+}
