@@ -2,13 +2,17 @@
     export let item = {name:null, desc:null, price:null, img:"/placeholder.webp"};
 </script>
 
+<style>
+    
+</style>
+
 <div class="no-underline border-2 border-black rounded bg-cyan-700 bg-opacity-25 flex flex-col md:flex-row justify-start shadow-xl">
     <div class="aspect-square h-1/2 md:h-full md:w-1/6 p-2">
-        <img src={item.img} alt={item.name} class="rounded">
+        <img src={"/dijitalmenube"+item.img} alt={item.name} class="rounded">
     </div>
 
-    <div class="flex flex-col w-full p-5 relative text-start ">
-        <div><h1 class="font-bold">
+    <div class="flex flex-col w-full p-5 relative text-start">
+        <div><h1 class="font-bold font-mirage">
             {item.name}
         </h1></div>
 

@@ -1,25 +1,28 @@
 <script>
-  import bg from "./assets/bg.webp"
-
-  import Header from "./lib/Header.svelte";
+  import bg from "./assets/mabelle.webp"
   import MenuCategory from "./lib/MenuCategory.svelte";
-  import Footer from "./lib/Footer.svelte";
-  
-
   import storeObj from "./assets/menu.json";
   const menuObj = storeObj.menu;
+
+  import { activeCategory } from "./stores";
+
+
+
 </script>
 
 <body>
-
+  <!--BackgroundImage-->
   <img src="{bg}" alt="background" class="aspect-auto w-screen h-screen fixed bottom-0 opacity-85">
 
-  <div class="fixed left-0 top-0 h-full w-full p-5 flex flex-col justify-start space-y-5  overflow-auto">
-  
-    {#each Object.entries(menuObj) as category}
-      <MenuCategory {category}/>
-    {/each}
+  <!--Main-->
+  <div class="fixed left-0 top-0 h-screen w-screen flex flex-col justify-center">
+
+    <div class="h-full flex flex-col justify-center space-y-5 overflow-auto p-16 w-full">
+      {#each Object.entries(menuObj) as category}
+        <MenuCategory {category}/>
+      {/each}
+    </div>
     
   </div>
-  <Footer/>
+  
 </body>
