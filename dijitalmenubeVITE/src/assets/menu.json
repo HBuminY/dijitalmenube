@@ -15,12 +15,6 @@
             {"name":"Kola", "desc":"CocaCola", "price":40, "img":"/kola.webp"},
             {"name":"Fanta", "desc":"Fanta Kola", "price":40, "img":"/fanta.webp"},
             {"name":"Ayran", "desc":"Kapalı Ayran", "price":25, "img":"/ayran.webp"}
-        ],
-
-        "Sıcak İçecekler":[
-            {"name":"Kola", "desc":"CocaCola", "price":40, "img":"/kola.webp"},
-            {"name":"Fanta", "desc":"Fanta Kola", "price":40, "img":"/fanta.webp"},
-            {"name":"Ayran", "desc":"Kapalı Ayran", "price":25, "img":"/ayran.webp"}
         ]
     }
 }

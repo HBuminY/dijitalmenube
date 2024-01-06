@@ -4,6 +4,8 @@
     import { slide } from "svelte/transition";
     import { activeCategory } from "../stores";
 
+    import {get_current_component} from 'svelte/internal'
+    const THIS = get_current_component();
 
     export let category = [];
     let name = category[0];
@@ -26,6 +28,7 @@
         }else{
             activeCategory.activate(name);
             classs = ""
+            THIS.scrollIntoView();
         };
     }
 </script>
@@ -52,7 +55,7 @@
             </div>
         {:else}
             <div class="p-1 relative">
-                <img src="/dijitalmenube/{items[0].img}" alt="{name}" class="aspect-square w-[90%] m-auto my-1 rounded-lg opacity-80">
+                <img src="/dijitalmenube/{items[0].img}" alt="{name}" class="aspect-square w-[65%] mt-4 mx-auto my-1 rounded-lg opacity-80">
 
                 <h1 class="text-3xl text-gray-950 font-bold m-auto">
                     {name}

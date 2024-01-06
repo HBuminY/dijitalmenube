@@ -6,7 +6,7 @@
     
 </style>
 
-<div class="no-underline border border-black c-bg-pink1 flex flex-col md:flex-row justify-start shadow-xl rounded-lg">
+<div class="no-underline border border-black bg-purple-300 opacity-70 flex flex-col md:flex-row justify-start shadow-xl rounded-lg">
     <div class="m-auto aspect-square w-[60%] p-2">
         <img src={"/dijitalmenube"+item.img} alt={item.name} class="rounded-xl opacity-80 border border-white">
     </div>
@@ -16,7 +16,7 @@
             {item.name}
         </h1></div>
 
-        <div class="h-full font-normal text-xl"><p>
+        <div class="h-full font-sans text-xl"><p>
             {item.desc}
         </p></div>
 
