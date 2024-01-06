@@ -7,13 +7,13 @@
   import { activeCategory } from "./stores";
   
   
-  let justify = 'justify-center p-16 ';
+  let justify = 'justify-center p-24';
 
   $:{
     if($activeCategory){
       justify = 'justify-start p-10';
     }else{
-      justify = 'justify-center p-16 ';
+      justify = 'justify-center p-24';
     }
   }
 
@@ -21,7 +21,7 @@
 
 <body>
   <!--BackgroundImage-->
-  <img src="{bg}" alt="background" class="aspect-auto w-screen h-screen fixed bottom-0 opacity-85 scale-x-105">
+  <img src="{bg}" alt="background" class="aspect-auto w-screen h-screen fixed bottom-0 opacity-85 scale-x-125">
 
   <!--Main-->
   <div class="fixed left-0 top-0 h-screen w-screen flex flex-col justify-center">

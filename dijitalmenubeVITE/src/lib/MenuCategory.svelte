@@ -28,10 +28,10 @@
 </script>
 
 <a href="#" on:click={onclick}>
-    <div class="text-center border border-black rounded flex flex-col bg-white bg-opacity-60 text-black font-mirage">
+    <div class="text-center border border-black rounded-2xl flex flex-col bg-yellow-50 bg-opacity-80 font-mirage shadow-gray-700 shadow-xl">
         
         <div class="p-1">
-            <h1 class="text-xl font-bold m-auto">
+            <h1 class="text-3xl text-gray-950 font-bold m-auto">
                 {name}
             </h1>
         </div>
