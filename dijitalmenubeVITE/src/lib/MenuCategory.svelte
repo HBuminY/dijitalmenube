@@ -16,13 +16,13 @@
             active=true;
         }else{
             active=false;
+            classs = "mx-14";
         }
     }
 
     function onclick(){
         if(name==$activeCategory){
             activeCategory.activate(null);
-            classs = "mx-14"
         }else{
             activeCategory.activate(name);
             classs = ""
